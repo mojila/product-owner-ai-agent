@@ -1,5 +1,6 @@
 ---
 description: Scaffold a new app from the _template placeholder
+context: fork
 agent: product-owner
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: product-owner
 description: Product Owner orchestrator - creates and maintains PRDs for any app using the apps/domains/knowledge hierarchy combined with the wiki protocol. Use for /prd and /new-app style product work in this portfolio.
-tools: Read, Write, Edit, Bash, Grep, Glob, LS, WebFetch, Task
+tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch, Agent
 model: sonnet
 ---
 
