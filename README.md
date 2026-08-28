@@ -29,10 +29,14 @@ A knowledge-base portfolio — compiled by agents, for agents — that turns any
 Product Owner AI Agent/
 ├── README.md                  # This file
 ├── AGENTS.md                  # Root protocol — read this first
+├── CLAUDE.md                  # Imports AGENTS.md + Claude Code-specific wiring
 ├── .kilo/                     # Kilo configuration
 │   ├── agent/product-owner.md # Product Owner orchestrator agent
 │   └── command/               # /new-app, /prd commands
 ├── .claude/                   # Claude Code equivalent config
+│   ├── agents/product-owner.md # Product Owner subagent
+│   ├── commands/              # /new-app, /prd (context: fork → product-owner)
+│   └── skills/                # Skills (e.g. obsidian-cli)
 └── apps/
     ├── _index.md              # Hub registry: app → one-liner → domains → status
     ├── _template/             # Scaffold template (never a real app)
@@ -56,7 +60,7 @@ Apps are added under `apps/<slug>/` by scaffolding from `apps/_template/`. The t
 
 ### 1. Start with the Product Owner agent
 
-Select the **Product Owner** agent (Kilo: `.kilo/agent/product-owner.md`; Claude Code: `.claude/agent/product-owner.md`). It orchestrates the whole workflow. On any start or "where we left off", it boots by reading `apps/_index.md` and the target app's index + log.
+Select the **Product Owner** agent (Kilo: `.kilo/agent/product-owner.md`; Claude Code: `.claude/agents/product-owner.md`). It orchestrates the whole workflow. On any start or "where we left off", it boots by reading `apps/_index.md` and the target app's index + log.
 
 ### 2. Commands
 

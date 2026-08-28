@@ -1,5 +1,6 @@
 ---
 description: Author a PRD for an app using the Product Owner workflow
+context: fork
 agent: product-owner
 ---
 
