@@ -31,3 +31,8 @@ Numbered list of the domain's business rules — invariants that MUST hold. Exam
 
 - Durable domain facts live in `knowledge/`. Keep `knowledge/_index.md` current.
 - Read domain `knowledge/` before answering questions about this domain.
+- Domain articles use the same conventions as app knowledge: frontmatter with `category`, `confidence`, `sources`; dual-links.
+
+## Activity Log
+
+- Append every operation to `log.md` (format: `## [YYYY-MM-DD] operation | Description`). Never edit past entries.

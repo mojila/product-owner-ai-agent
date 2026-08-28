@@ -1,3 +1,16 @@
+---
+title: "PRD: <Product/Feature Name>"
+app: <app-slug>
+status: draft|proposed|approved|implemented
+date: YYYY-MM-DD
+owner: "Product Owner Agent"
+related_domains: [domain-a, domain-b]
+sources: [raw/interviews/YYYY-MM-DD-slug.md, raw/research/YYYY-MM-DD-slug.md]
+confidence: high|medium|low
+tags: [tag1, tag2]
+summary: "2-3 sentence summary of the product ask"
+---
+
 # PRD: <Product/Feature Name>
 
 - **App:** <app-slug>
@@ -5,6 +18,7 @@
 - **Date:** YYYY-MM-DD
 - **Owner:** Product Owner Agent
 - **Related domains:** <domain A>, <domain B>
+- **Confidence:** <high|medium|low>
 
 ---
 
@@ -91,6 +105,15 @@ Given _context_, when _action_, then _observable outcome_.
 - Term — meaning (link to app/domain `knowledge/` where defined).
 
 ---
+
+## See Also
+
+- _Dual-links to app/domain knowledge that grounds this PRD._
+- _Each requirement should cite its source: `[[confidence|Name]]` ([Name](../knowledge/...))_
+
+## Sources
+
+- [raw/interviews/YYYY-MM-DD-slug.md](../raw/interviews/YYYY-MM-DD-slug.md)
 
 ### Revision History
 

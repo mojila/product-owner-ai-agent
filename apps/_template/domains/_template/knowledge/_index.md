@@ -15,3 +15,7 @@ _(Add knowledge pages here as the domain matures.)_
 ## Decisions
 
 - YYYY-MM-DD: _add decisions as they are made_
+
+## Recent Changes
+
+- YYYY-MM-DD: _add changes here, and append every domain operation to `../log.md`_
